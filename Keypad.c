@@ -10,9 +10,9 @@ uint16 KEYPAD_ROWS[] = {KEYPAD_R0, KEYPAD_R1, KEYPAD_R2, KEYPAD_R3};
 uint16 KEYPAD_COLS[] = {KEYPAD_C3, KEYPAD_C2, KEYPAD_C1, KEYPAD_C0};
 
 uint8 KEYPAD[KEYPAD_NUM_ROWS][KEYPAD_NUM_COLS] =  {	{'/','9','8','7'},
-													{'*','6','5','4'},
-													{'-','3','2','1'},
-													{'+','=','0','?'} };
+							{'*','6','5','4'},
+							{'-','3','2','1'},
+							{'+','=','0','?'} };
 void Keypad_Init(void)
 {
 	GPIO_PinConfig_t PinCfg;
