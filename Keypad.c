@@ -6,17 +6,6 @@
  */
 #include "Keypad.h"
 
-
-
-/*
- * keypad.c
- *
- * Created: 4/22/2021 6:32:10 PM
- *  Author: Marco
- */
-
-#include "keypad.h"
-
 uint16 KEYPAD_ROWS[] = {KEYPAD_R0, KEYPAD_R1, KEYPAD_R2, KEYPAD_R3};
 uint16 KEYPAD_COLS[] = {KEYPAD_C3, KEYPAD_C2, KEYPAD_C1, KEYPAD_C0};
 
